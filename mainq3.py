@@ -1,0 +1,11 @@
+sisters = ('Rachel', 'Emily', 'Sophia')
+brothers = ('Michael', 'David', 'Andrew')
+siblings = sisters + brothers
+print("Siblings:", siblings)
+num_siblings = len(siblings)
+print("\nNumber of Siblings:", num_siblings)
+siblings_list = list(siblings)
+siblings_list.append('Jessica')
+siblings_list.remove('Andrew')
+siblings = tuple(siblings_list)
+print("\nModified Siblings:", siblings)
